@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.gundar.hi"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->D:\hi\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\hi\app\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\hi\app\src\main\AndroidManifest.xml:7:5-12:40
+13        android:anyDensity="true"
+13-->D:\hi\app\src\main\AndroidManifest.xml:8:9-34
+14        android:largeScreens="true"
+14-->D:\hi\app\src\main\AndroidManifest.xml:9:9-36
+15        android:normalScreens="true"
+15-->D:\hi\app\src\main\AndroidManifest.xml:10:9-37
+16        android:smallScreens="true"
+16-->D:\hi\app\src\main\AndroidManifest.xml:11:9-36
+17        android:xlargeScreens="true" />
+17-->D:\hi\app\src\main\AndroidManifest.xml:12:9-37
+18
+19    <uses-feature
+19-->D:\hi\app\src\main\AndroidManifest.xml:15:5-17:35
+20        android:glEsVersion="0x00020000"
+20-->D:\hi\app\src\main\AndroidManifest.xml:16:9-41
+21        android:required="true" />
+21-->D:\hi\app\src\main\AndroidManifest.xml:17:9-32
+22
+23    <!-- Menandakan Permission Pada Saat Muncul Apk -->
+24    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->D:\hi\app\src\main\AndroidManifest.xml:20:5-85
+24-->D:\hi\app\src\main\AndroidManifest.xml:20:29-83
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->D:\hi\app\src\main\AndroidManifest.xml:21:5-67
+26-->D:\hi\app\src\main\AndroidManifest.xml:21:22-64
+27
+28    <application
+28-->D:\hi\app\src\main\AndroidManifest.xml:22:5-57:19
+29        android:allowBackup="true"
+29-->D:\hi\app\src\main\AndroidManifest.xml:23:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\d873b809058b505b84f79a32182448f6\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\hi\app\src\main\AndroidManifest.xml:24:9-43
+33        android:label="@string/app_name"
+33-->D:\hi\app\src\main\AndroidManifest.xml:25:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->D:\hi\app\src\main\AndroidManifest.xml:26:9-54
+35        android:supportsRtl="true"
+35-->D:\hi\app\src\main\AndroidManifest.xml:27:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->D:\hi\app\src\main\AndroidManifest.xml:28:9-40
+38        <activity
+38-->D:\hi\app\src\main\AndroidManifest.xml:30:9-38:20
+39            android:name="id.gundar.hi.activity.SplashScreen"
+39-->D:\hi\app\src\main\AndroidManifest.xml:31:13-50
+40            android:theme="@style/AppTheme.NoActionBar" >
+40-->D:\hi\app\src\main\AndroidManifest.xml:32:13-56
+41            <intent-filter>
+41-->D:\hi\app\src\main\AndroidManifest.xml:34:13-37:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\hi\app\src\main\AndroidManifest.xml:35:17-69
+42-->D:\hi\app\src\main\AndroidManifest.xml:35:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\hi\app\src\main\AndroidManifest.xml:36:17-77
+44-->D:\hi\app\src\main\AndroidManifest.xml:36:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->D:\hi\app\src\main\AndroidManifest.xml:39:9-44:58
+48            android:name="id.gundar.hi.activity.MainActivity"
+48-->D:\hi\app\src\main\AndroidManifest.xml:40:13-50
+49            android:noHistory="true"
+49-->D:\hi\app\src\main\AndroidManifest.xml:43:13-37
+50            android:screenOrientation="portrait"
+50-->D:\hi\app\src\main\AndroidManifest.xml:41:13-49
+51            android:theme="@style/AppTheme.NoActionBar"
+51-->D:\hi\app\src\main\AndroidManifest.xml:44:13-56
+52            android:windowSoftInputMode="stateHidden" />
+52-->D:\hi\app\src\main\AndroidManifest.xml:42:13-54
+53        <activity
+53-->D:\hi\app\src\main\AndroidManifest.xml:45:9-48:51
+54            android:name="id.gundar.hi.activity.ActivityChat"
+54-->D:\hi\app\src\main\AndroidManifest.xml:46:13-50
+55            android:screenOrientation="portrait"
+55-->D:\hi\app\src\main\AndroidManifest.xml:48:13-49
+56            android:theme="@style/Theme.AppCompat.NoActionBar" />
+56-->D:\hi\app\src\main\AndroidManifest.xml:47:13-63
+57        <!--
+58     ATTENTION: This was auto-generated to add Google Play services to your project for
+59     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+60        -->
+61
+62        <activity android:name="id.gundar.hi.activity.MainActivity_Delete" />
+62-->D:\hi\app\src\main\AndroidManifest.xml:52:5-61
+62-->D:\hi\app\src\main\AndroidManifest.xml:52:15-59
+63
+64        <meta-data
+64-->D:\hi\app\src\main\AndroidManifest.xml:53:5-55:65
+65            android:name="com.google.android.gms.version"
+65-->D:\hi\app\src\main\AndroidManifest.xml:54:9-54
+66            android:value="@integer/google_play_services_version" />
+66-->D:\hi\app\src\main\AndroidManifest.xml:55:9-62
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\a87bdf0ae1d9ab0ec8fa3a82cd29a442\jetified-play-services-base-10.2.1\AndroidManifest.xml:19:9-172
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\a87bdf0ae1d9ab0ec8fa3a82cd29a442\jetified-play-services-base-10.2.1\AndroidManifest.xml:19:19-85
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\a87bdf0ae1d9ab0ec8fa3a82cd29a442\jetified-play-services-base-10.2.1\AndroidManifest.xml:19:146-170
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\a87bdf0ae1d9ab0ec8fa3a82cd29a442\jetified-play-services-base-10.2.1\AndroidManifest.xml:19:86-145
+72
+73        <provider
+73-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\faa530e63fd293f1ed594d088e1b86cc\jetified-firebase-common-10.2.1\AndroidManifest.xml:6:9-194
+74            android:name="com.google.firebase.provider.FirebaseInitProvider"
+74-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\faa530e63fd293f1ed594d088e1b86cc\jetified-firebase-common-10.2.1\AndroidManifest.xml:6:79-143
+75            android:authorities="id.gundar.hi.firebaseinitprovider"
+75-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\faa530e63fd293f1ed594d088e1b86cc\jetified-firebase-common-10.2.1\AndroidManifest.xml:6:19-78
+76            android:exported="false"
+76-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\faa530e63fd293f1ed594d088e1b86cc\jetified-firebase-common-10.2.1\AndroidManifest.xml:6:144-168
+77            android:initOrder="100" />
+77-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Pavillion\.gradle\caches\transforms-2\files-2.1\faa530e63fd293f1ed594d088e1b86cc\jetified-firebase-common-10.2.1\AndroidManifest.xml:6:169-192
+78    </application>
+79
+80</manifest>
