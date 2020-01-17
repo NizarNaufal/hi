@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\hi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\Pavillion\\Videos\\hi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Pavillion\\.gradle\\caches\\transforms-2\\files-2.1\\22e89434bc0715bf6f8c68b5d82da5e8\\appcompat-1.1.0\\res\\values-watch-v20\\values-watch-v20.xml",

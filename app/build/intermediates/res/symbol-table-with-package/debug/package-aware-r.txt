@@ -37,6 +37,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array general_date
+array people_images
+array people_names
+array strings_short
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -427,6 +431,18 @@ attr maxButtonHeight
 attr maxImageSize
 attr measureWithLargestChild
 attr menu
+attr mrl_rippleAlpha
+attr mrl_rippleBackground
+attr mrl_rippleColor
+attr mrl_rippleDelayClick
+attr mrl_rippleDimension
+attr mrl_rippleDuration
+attr mrl_rippleFadeDuration
+attr mrl_rippleHover
+attr mrl_rippleInAdapter
+attr mrl_rippleOverlay
+attr mrl_ripplePersistent
+attr mrl_rippleRoundedCorners
 attr multiChoiceItemLayout
 attr navigationContentDescription
 attr navigationIcon
@@ -663,6 +679,17 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color blackTextColor
+color blue_300
+color blue_grey_100
+color blue_grey_200
+color blue_grey_300
+color blue_grey_400
+color blue_grey_50
+color blue_grey_500
+color blue_grey_600
+color blue_grey_700
+color blue_grey_800
+color blue_grey_900
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -711,6 +738,13 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey_10
+color grey_20
+color grey_3
+color grey_40
+color grey_5
+color grey_60
+color grey_90
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -754,6 +788,15 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color overlay_dark_10
+color overlay_dark_20
+color overlay_dark_30
+color overlay_dark_40
+color overlay_dark_50
+color overlay_dark_60
+color overlay_dark_70
+color overlay_dark_80
+color overlay_dark_90
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -762,6 +805,20 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red_100
+color red_200
+color red_300
+color red_400
+color red_50
+color red_500
+color red_600
+color red_700
+color red_800
+color red_900
+color red_A100
+color red_A200
+color red_A400
+color red_A700
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -776,6 +833,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color whiteCardColor
 color whiteTextColor
 dimen abc_action_bar_content_inset_material
@@ -856,6 +914,10 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen actionBarSize
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+dimen appbar_padding_top
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -913,6 +975,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -975,6 +1038,8 @@ dimen mtrl_textinput_box_stroke_width_default
 dimen mtrl_textinput_box_stroke_width_focused
 dimen mtrl_textinput_outline_box_expanded_padding
 dimen mtrl_toolbar_default_height
+dimen nav_header_height
+dimen nav_header_vertical_spacing
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -990,6 +1055,19 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen spacing_large
+dimen spacing_medium
+dimen spacing_middle
+dimen spacing_mlarge
+dimen spacing_mxlarge
+dimen spacing_small
+dimen spacing_smlarge
+dimen spacing_xlarge
+dimen spacing_xmedium
+dimen spacing_xmlarge
+dimen spacing_xsmall
+dimen spacing_xxlarge
+dimen spacing_xxxlarge
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
@@ -1002,6 +1080,8 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+dimen viewpager_margin_overlap
+dimen viewpager_margin_overlap_payment
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -1090,6 +1170,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_multi_selection
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1131,9 +1212,12 @@ drawable ic_arrow_left
 drawable ic_arrow_right
 drawable ic_attach_file
 drawable ic_correct_mark
+drawable ic_create
 drawable ic_delete
+drawable ic_done
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_menu
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
@@ -1157,8 +1241,25 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable onboarding_button
+drawable photo_female_1
+drawable photo_female_2
+drawable photo_female_3
+drawable photo_female_4
+drawable photo_female_5
+drawable photo_female_6
+drawable photo_female_7
+drawable photo_female_8
+drawable photo_male_1
+drawable photo_male_2
+drawable photo_male_3
+drawable photo_male_4
+drawable photo_male_5
+drawable photo_male_6
+drawable photo_male_7
+drawable photo_male_8
 drawable round_blue
 drawable round_grey
+drawable shape_circle
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font indigo_daisy
@@ -1212,6 +1313,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_delete
 id action_divider
 id action_image
 id action_menu_divider
@@ -1219,6 +1321,8 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_search
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1282,13 +1386,16 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fill
 id fill_horizontal
 id fill_vertical
 id filled
 id fixed
 id forever
+id from
 id ghost_view
+id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
@@ -1301,6 +1408,7 @@ id icon_only
 id icon_uri
 id ifRoom
 id image
+id image_letter
 id index_entity_types
 id info
 id instant_message
@@ -1323,6 +1431,9 @@ id linear_profile
 id listMode
 id list_item
 id listview
+id lyt_checked
+id lyt_image
+id lyt_parent
 id masked
 id match_global_nicknames
 id media_actions
@@ -1357,6 +1468,7 @@ id plain
 id progress_circular
 id progress_horizontal
 id radio
+id recyclerView
 id rfc822
 id right
 id right_icon
@@ -1429,6 +1541,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -1506,6 +1619,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chat
 layout activity_delete
+layout activity_list_multi_selection
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1523,6 +1637,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout internet_dialog
+layout item_inbox
 layout list_data
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
@@ -1546,6 +1661,8 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout toolbar
+menu menu_delete
+menu menu_search_setting
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -1600,6 +1717,7 @@ string common_signin_button_text_long
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string lorem_ipsum
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
 string path_password_eye
@@ -1615,6 +1733,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style AppTheme
+style AppTheme_AppBarOverlay
 style AppTheme_NoActionBar
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
@@ -1822,6 +1941,9 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style RippleStyleBlack
+style RippleStyleDark
+style RippleStyleWhite
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon
@@ -2180,6 +2302,7 @@ styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom backgroundTint backgroundTintMode cornerRadius icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor strokeColor strokeWidth
 styleable MaterialCardView strokeColor strokeWidth
 styleable MaterialComponentsTheme bottomSheetDialogTheme bottomSheetStyle chipGroupStyle chipStandaloneStyle chipStyle colorAccent colorBackgroundFloating colorPrimary colorPrimaryDark colorSecondary editTextStyle floatingActionButtonStyle materialButtonStyle materialCardViewStyle navigationViewStyle scrimBackground snackbarButtonStyle tabStyle textAppearanceBody1 textAppearanceBody2 textAppearanceButton textAppearanceCaption textAppearanceHeadline1 textAppearanceHeadline2 textAppearanceHeadline3 textAppearanceHeadline4 textAppearanceHeadline5 textAppearanceHeadline6 textAppearanceOverline textAppearanceSubtitle1 textAppearanceSubtitle2 textInputStyle
+styleable MaterialRippleLayout mrl_rippleAlpha mrl_rippleBackground mrl_rippleColor mrl_rippleDelayClick mrl_rippleDimension mrl_rippleDuration mrl_rippleFadeDuration mrl_rippleHover mrl_rippleInAdapter mrl_rippleOverlay mrl_ripplePersistent mrl_rippleRoundedCorners
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
